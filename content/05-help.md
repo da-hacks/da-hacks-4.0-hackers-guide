@@ -6,3 +6,5 @@
 - **Tech/project help**: Ask a mentor in-person or in Discord: [discord.gg/bJWTS7qem6](https://discord.gg/bJWTS7qem6)
 
 Remember, mentors are here to help you succeed! Don't hesitate to ask questions throughout the event.
+
+### That's it! Thanks for reading! 🎉
