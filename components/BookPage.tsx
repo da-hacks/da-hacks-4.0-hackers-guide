@@ -67,7 +67,7 @@ export default async function BookPage({ currentChapter }: { currentChapter: str
       
       <div className="flex-1 flex flex-col">
         <main className="flex-1 overflow-y-auto">
-          <div className="max-w-6xl mx-auto px-8 py-12">
+          <div className="max-w-6xl mx-auto px-8 pb-12">
             <div className="prose prose-lg max-w-none">
               <ReactMarkdown
                 remarkPlugins={[remarkBreaks]}

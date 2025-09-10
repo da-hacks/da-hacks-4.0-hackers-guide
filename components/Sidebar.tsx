@@ -16,7 +16,7 @@ interface SidebarProps {
 
 export default function Sidebar({ chapters, currentChapter }: SidebarProps) {
   return (
-    <div className="w-80 bg-slate-50 dark:bg-slate-900 border-r border-slate-200 dark:border-slate-700 h-screen overflow-y-auto">
+    <div className="w-80 bg-slate-50 dark:bg-slate-900 border-r border-slate-200 dark:border-slate-700 h-screen overflow-y-auto hidden md:block">
       <div className="p-6">
         <div className="flex items-center justify-between mb-6">
           <h1 className="text-xl font-bold text-slate-800 dark:text-slate-100">DAHacks 4.0 Guide</h1>

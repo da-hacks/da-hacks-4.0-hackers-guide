@@ -20,7 +20,7 @@ export default function PageNavigation({
   canGoNext,
 }: PageNavigationProps) {
   return (
-    <div className="flex items-center justify-between p-6 border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
+    <div className="flex items-center justify-between border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
       <button
         onClick={onPrevious}
         disabled={!canGoPrevious}
