@@ -1,6 +1,7 @@
 'use client';
 
 import Link from "next/link";
+import ThemeToggle from "./ThemeToggle";
 
 interface Chapter {
   id: string;
@@ -15,9 +16,12 @@ interface SidebarProps {
 
 export default function Sidebar({ chapters, currentChapter }: SidebarProps) {
   return (
-    <div className="w-80 bg-slate-50 border-r border-slate-200 h-screen overflow-y-auto">
+    <div className="w-80 bg-slate-50 dark:bg-slate-900 border-r border-slate-200 dark:border-slate-700 h-screen overflow-y-auto">
       <div className="p-6">
-        <h1 className="text-xl font-bold text-slate-800 mb-6">DAHacks 4.0 Guide</h1>
+        <div className="flex items-center justify-between mb-6">
+          <h1 className="text-xl font-bold text-slate-800 dark:text-slate-100">DAHacks 4.0 Guide</h1>
+          <ThemeToggle />
+        </div>
         <nav>
           <ul className="space-y-2">
             {chapters.map((chapter, index) => (
@@ -26,12 +30,12 @@ export default function Sidebar({ chapters, currentChapter }: SidebarProps) {
                   href={`/${chapter.id}`}
                   className={`block w-full px-4 py-3 rounded-lg transition-colors ${
                     currentChapter === chapter.id
-                      ? 'bg-blue-100 text-blue-800 border-l-4 border-blue-500'
-                      : 'text-slate-600 hover:bg-slate-100 hover:text-slate-800'
+                      ? 'bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-200 border-l-4 border-blue-500 dark:border-blue-400'
+                      : 'text-slate-600 dark:text-slate-300 hover:bg-slate-100 dark:hover:bg-slate-800 hover:text-slate-800 dark:hover:text-slate-100'
                   }`}
                 >
                   <div className="flex items-center">
-                    <span className="text-sm font-medium text-slate-400 mr-3">
+                    <span className="text-sm font-medium text-slate-400 dark:text-slate-500 mr-3">
                       {String(index + 1)}
                     </span>
                     <span className="font-medium">{chapter.title}</span>

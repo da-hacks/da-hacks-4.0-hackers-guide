@@ -1,5 +1,7 @@
 'use client';
 
+import { useTheme } from 'next-themes';
+
 interface PageNavigationProps {
   currentIndex: number;
   totalPages: number;
@@ -18,14 +20,14 @@ export default function PageNavigation({
   canGoNext,
 }: PageNavigationProps) {
   return (
-    <div className="flex items-center justify-between p-6 border-t border-slate-200 bg-white">
+    <div className="flex items-center justify-between p-6 border-t border-slate-200 dark:border-slate-700 bg-white dark:bg-slate-900">
       <button
         onClick={onPrevious}
         disabled={!canGoPrevious}
         className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors ${
           canGoPrevious
-            ? 'text-blue-600 hover:bg-blue-50 hover:text-blue-700'
-            : 'text-slate-400 cursor-not-allowed'
+            ? 'text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:text-blue-700 dark:hover:text-blue-300'
+            : 'text-slate-400 dark:text-slate-500 cursor-not-allowed'
         }`}
       >
         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -40,7 +42,7 @@ export default function PageNavigation({
             <div
               key={i}
               className={`w-2 h-2 rounded-full ${
-                i === currentIndex ? 'bg-blue-500' : 'bg-slate-300'
+                i === currentIndex ? 'bg-blue-500 dark:bg-blue-400' : 'bg-slate-300 dark:bg-slate-600'
               }`}
             />
           ))}
@@ -52,8 +54,8 @@ export default function PageNavigation({
         disabled={!canGoNext}
         className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors ${
           canGoNext
-            ? 'text-blue-600 hover:bg-blue-50 hover:text-blue-700'
-            : 'text-slate-400 cursor-not-allowed'
+            ? 'text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:text-blue-700 dark:hover:text-blue-300'
+            : 'text-slate-400 dark:text-slate-500 cursor-not-allowed'
         }`}
       >
         Next
