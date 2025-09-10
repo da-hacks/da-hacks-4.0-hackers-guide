@@ -14,7 +14,7 @@ To be eligible for judging and prizes:
 - Don't know how to use GitHub with VS Code? Ask a mentor.
 
 ## 👮 Code of Conduct
-We follow the standard MLH Code of Conduct. In short:
+We follow the standard [MLH Code of Conduct](https://mlh.io/code-of-conduct). In short:
 
 - Be respectful and inclusive.
 - No harassment or discrimination.
