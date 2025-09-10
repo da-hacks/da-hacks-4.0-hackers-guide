@@ -12,9 +12,11 @@
 - GitHub set up (make sure you're familiar with version control)
 
 ## ⏰ Schedule
+TODO CHANGE THIS
 📍 Workshop details & sign-ups: [lu.ma/dahacks](https://lu.ma/dahacks)
 
 ## 🌐 Useful Links
 - [Website](https://deanzahacks.com)
 - [Live](https://deanzahacks.com/live)
-- [Devpost](https://dahacks3-5.devpost.com/) TODO replace
+TODO replace
+- [Devpost](https://dahacks3-5.devpost.com/)
