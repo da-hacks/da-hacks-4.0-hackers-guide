@@ -27,7 +27,7 @@ export default function PageNavigation({
         className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors ${
           canGoPrevious
             ? 'text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:text-blue-700 dark:hover:text-blue-300'
-            : 'text-slate-400 dark:text-slate-500 cursor-not-allowed'
+            : 'text-slate-400 dark:text-slate-500'
         }`}
       >
         <svg className="w-5 h-5 mr-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -55,7 +55,7 @@ export default function PageNavigation({
         className={`flex items-center px-4 py-2 rounded-lg font-medium transition-colors ${
           canGoNext
             ? 'text-blue-600 dark:text-blue-400 hover:bg-blue-50 dark:hover:bg-blue-900/20 hover:text-blue-700 dark:hover:text-blue-300'
-            : 'text-slate-400 dark:text-slate-500 cursor-not-allowed'
+            : 'text-slate-400 dark:text-slate-500'
         }`}
       >
         Next
