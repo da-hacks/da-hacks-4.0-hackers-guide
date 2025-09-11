@@ -19,7 +19,7 @@ export default function Sidebar({ chapters, currentChapter }: SidebarProps) {
     <div className="w-80 bg-slate-50 dark:bg-slate-900 border-r border-slate-200 dark:border-slate-700 h-screen overflow-y-auto hidden md:block">
       <div className="p-6">
         <div className="flex items-center justify-between mb-6">
-          <h1 className="text-base font-bold text-slate-800 dark:text-slate-100">DAHacks 4.0 Hacker's Guide</h1>
+          <h1 className="text-base font-bold text-slate-800 dark:text-slate-100">DAHacks 4.0 Hacker&apos;s Guide</h1>
           <ThemeToggle />
         </div>
         <nav>
