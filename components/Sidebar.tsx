@@ -2,12 +2,7 @@
 
 import Link from "next/link";
 import ThemeToggle from "./ThemeToggle";
-
-interface Chapter {
-  id: string;
-  title: string;
-  filename: string;
-}
+import { Chapter } from "../lib/types";
 
 interface SidebarProps {
   chapters: Chapter[];

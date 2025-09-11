@@ -2,24 +2,26 @@ import ReactMarkdown from "react-markdown";
 import rehypeExternalLinks from "rehype-external-links";
 import rehypeRaw from "rehype-raw";
 import remarkBreaks from "remark-breaks";
-import Sidebar from "../components/Sidebar";
-import PageNavigation from "../components/PageNavigation";
 import { notFound, redirect } from "next/navigation";
 
 import fs from "fs";
 import path from "path";
 
+import Sidebar from "../components/Sidebar";
+import PageNavigation from "../components/PageNavigation";
+import { Chapter } from "../lib/types";
+
 function titleCase(s: string) {
   return s.toLowerCase()
-          .split(' ')
-          .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
-          .join(' ');
+    .split(' ')
+    .map((word: string) => word.charAt(0).toUpperCase() + word.slice(1))
+    .join(' ');
 }
 
 // I love server actions 😍
 async function generateChapters() {
   "use server";
-  const chapters = [];
+  const chapters: Chapter[] = [];
   const files = fs.readdirSync(path.join(process.cwd(), "content"));
   for (const file of files) {
     const id = file.replace(/^\d+-(.*)\.md$/, "$1");
@@ -36,7 +38,7 @@ async function getContent(filename: string) {
 }
 
 export default async function BookPage({ currentChapter }: { currentChapter: string }) {
-  const chapters = await generateChapters();
+  const chapters: Chapter[] = await generateChapters();
   const currentIndex = chapters.findIndex(chapter => chapter.id === currentChapter);
   if (currentIndex === -1) {
     notFound();
