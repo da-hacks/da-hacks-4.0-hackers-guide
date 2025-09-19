@@ -4,7 +4,7 @@ Welcome to DAHacks 4.0! This is your all-in-one guide for everything you need to
 
 ## 📍 Time & Location
 TODO CHANGE THIS
-**Date:** TBA
+**Date:** Nov 21-22, 2025
 **Time:** TBA
 **Venue:** TBA
 📍 [Location on Google Maps](https://maps.app.goo.gl/DABGTcenVWG93AgNA)
