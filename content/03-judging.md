@@ -10,7 +10,7 @@ Finally, the top teams will be announced and present at our closing ceremonies, 
 ## Judging Criteria
 
 - **Application Feasibility**: How well does it work in the real world&trade; 🤔?
-- **Functionality & Quality**: Is it useful, does it work, is it secure?
-- **Creativity & Innovation**: How original is it? Does it go so far outside the box it literally breaks the box?
+- **Functionality & Quality**: Is it useful? Does it work?
+- **Creativity & Innovation**: How original is it? Does it go so far outside the box, it literally breaks the box?
 - **Technical Complexity**: How complex is it?
-- **Presentation**: How well does it look? Does it make you go oh my skibidi skoob wow this is so good?
+- **Presentation**: How well is the project presented? Is the user interface clear and visually appealing?
