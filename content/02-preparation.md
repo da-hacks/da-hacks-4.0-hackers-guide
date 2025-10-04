@@ -19,7 +19,5 @@ TODO CHANGE THIS
 ## 🌐 Useful Links
 - [Website](https://deanzahacks.com)
 - [Live](https://deanzahacks.com/live)
-TODO replace
-- [Devpost](https://dahacks3-5.devpost.com/)
-TODO replace
-- [Discord](https://discord.gg/NUa2sNJebR)
+- [Devpost](https://dahacks4.devpost.com/)
+- [Discord](https://discord.gg/46fcBdqTB8)
