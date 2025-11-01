@@ -3,10 +3,10 @@
 ## 🚨 Rules & Submissions
 To be eligible for judging and prizes:
 
-- Do not start your project before TODO ADD DATE.
+- Do not start your project before **11/21 8:00 AM**.
   - **Note:** ideation and planning is allowed (and encouraged) before the hackathon, but all coding/building must take place during hacking hours.
-- Submit your project on [Devpost](https://dahacks4.devpost.com/) by TODO ADD DEADLINE.
-- One member must be present during judging.
+- Submit your project on [Devpost](https://dahacks4.devpost.com/) by **11/22 4:00 PM**.
+- At least one member must be present during judging.
 
 ## 💻 Devpost & GitHub
 - Devpost is where you submit your hack.
