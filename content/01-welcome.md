@@ -4,7 +4,7 @@ Welcome to DAHacks 4.0! This is your all-in-one guide for everything you need to
 
 ## 📍 Time & Location
 **Date:** Nov 21-22, 2025
-**Time:** 8:00 AM - 8:30 PM (both days)
+**Time:** 8:00 AM-8:30 PM (both days)
 **Venue:** Campus Center - Conference Room A & B, De Anza College, Cupertino
 📍 [Location on Google Maps](https://maps.app.goo.gl/QyfmTVAUGB877icP7)
 
