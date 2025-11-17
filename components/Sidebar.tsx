@@ -19,7 +19,7 @@ export default function Sidebar({ chapters, currentChapter }: SidebarProps) {
         </div>
         <nav>
           <ul className="space-y-2">
-            {chapters.map((chapter, index) => (
+            {chapters.filter((chapter) => chapter.showInTOC).map((chapter, index) => (
               <li key={chapter.id}>
                 <Link
                   href={`/${chapter.id}`}

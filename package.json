@@ -17,7 +17,8 @@
     "react-markdown": "^10.1.0",
     "rehype-external-links": "^3.0.0",
     "rehype-raw": "^7.0.0",
-    "remark-breaks": "^4.0.0"
+    "remark-breaks": "^4.0.0",
+    "remark-gfm-configurable": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/eslintrc": "^3",
