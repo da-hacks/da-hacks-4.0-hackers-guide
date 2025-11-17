@@ -11,6 +11,7 @@
 - Development tools pre-installed - VS Code🤓, Cursor 🤖, Windsurf 🏄, Node.js 📦, Python 🐍, etc.
   - New to VS Code? Check out our [Beginner's Guide to VS Code](/vscode-beginners-guide)
 - GitHub set up. Make sure you're familiar with version control
+  - New? Read [Beginner's Guide to GitHub](/github-beginners-guide)
 - [Learn how to submit your project on Devpost](https://www.youtube.com/watch?v=xDe95tBgVsg)
 
 ## ⏰ Schedule
