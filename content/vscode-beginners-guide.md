@@ -64,7 +64,7 @@ The Command Palette is your best friend! Press `Ctrl+Shift+P` (or `Cmd+Shift+P` 
 - Navigate files
 - And much more!
 
-## 🔌 Essential Extensions
+## 🔌 Extensions
 
 Extensions add extra functionality to VS Code.
 
@@ -73,14 +73,18 @@ Extensions add extra functionality to VS Code.
 2. Search for the extension name
 3. Click **Install**
 
+### Useful Extensions
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
+- [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+
 ## 💡 Tips for Hackathons
 
 1. **Use the integrated terminal** - No need to switch between windows!
 2. **Split your editor** - View multiple files side-by-side (`Ctrl+\` or `Cmd+\`)
-3. **Use snippets** - Type common code patterns faster
-4. **Customize your theme** - Go to **File → Preferences → Color Theme** (or `Ctrl+K Ctrl+T`)
-5. **Enable auto-save** - Go to **File → Auto Save** to never lose your work
-6. **Use IntelliSense** - VS Code will suggest code completions as you type (press `Ctrl+Space` to trigger manually)
+3. **Customize your theme** - Go to **File → Preferences → Color Theme** (or `Ctrl+K Ctrl+T`)
+4. **Enable auto-save** - Go to **File → Auto Save** to never lose your work
+5. **Use IntelliSense** - VS Code will suggest code completions as you type (press `Ctrl+Space` to trigger manually)
 
 ## 🆘 Getting Help
 
