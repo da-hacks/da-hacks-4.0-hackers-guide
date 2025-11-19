@@ -1,6 +1,8 @@
-# Beginner's Guide to VS Code
+# Beginner's Guide to VS Code & AI Editors
 
-Welcome! This guide will help you get started with Visual Studio Code (VS Code), one of the most popular code editors for hackathons and development.
+**Why Visual Studio Code (VS Code)?**
+
+VS Code is the foundation of modern web development. It works on every OS, supports every language, and defines the standard for what a code editor should look like. However, in 2025, the landscape has shifted toward AI-Native editors that are built on top of VS Code.
 
 ## 📥 Installation
 
@@ -74,9 +76,20 @@ Extensions add extra functionality to VS Code.
 3. Click **Install**
 
 ### Useful Extensions
+These give you IntelliSense (autocompletion) while you code.
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Java Extension Pack](https://marketplace.visualstudio.com/items?itemName=vscjava.vscode-java-pack)
 - [C/C++](https://marketplace.visualstudio.com/items?itemName=ms-vscode.cpptools)
+
+## The New Standard (AI-Native Editors)
+
+In a hackathon, speed is your most valuable resource. These are standalone editors that are VS Code under the hood (same extensions, same hotkeys), but they have AI baked into the engine. They both offer **Tab Autocomplete** (predicting your next edit) and **Agents** (chatbots that know your codebase).
+
+## Cursor
+Download: [cursor.com](https://cursor.com)
+
+## Windsurf
+Download: [windsurf.com](https://windsurf.com)
 
 ## 💡 Tips for Hackathons
 
