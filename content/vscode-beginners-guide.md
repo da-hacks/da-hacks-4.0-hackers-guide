@@ -85,6 +85,8 @@ These give you IntelliSense (autocompletion) while you code.
 
 In a hackathon, speed is your most valuable resource. These are standalone editors that are VS Code under the hood (same extensions, same hotkeys), but they have AI baked into the engine. They both offer **Tab Autocomplete** (predicting your next edit) and **Agents** (chatbots that know your codebase).
 
+In both of the following editors, hitting `Ctrl+L` opens the agent (ChatGPT-like interface), and hitting `Ctrl+K` while selecting a block of code lets you give AI a prompt to edit the code.
+
 ## Cursor
 Download: [cursor.com](https://cursor.com)
 
@@ -106,4 +108,3 @@ Download: [windsurf.com](https://windsurf.com)
 - **Ask mentors** - Don't hesitate to ask for help during the hackathon!
 
 Happy coding! 🚀
-
